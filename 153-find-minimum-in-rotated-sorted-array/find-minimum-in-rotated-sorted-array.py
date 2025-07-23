@@ -7,7 +7,7 @@ class Solution(object):
         """
         s=0
         e=len(nums)-1
-        ans= sys.maxsize
+        ans= nums[0]
         while(s<=e): 
             mid=(s+e)//2
             if nums[s]<=nums[mid]:
