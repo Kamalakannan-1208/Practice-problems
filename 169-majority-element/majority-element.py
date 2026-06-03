@@ -9,8 +9,9 @@ class Solution(object):
         for i in range(len(nums)):
             if count==0:
                 element=nums[i]
+                count=1
                 
-            if element==nums[i]:
+            elif element==nums[i]:
                 count+=1
             else:
                 count-=1
